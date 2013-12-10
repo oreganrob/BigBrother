@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  
+    <Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:layout_alignParentRight="true"
+     android:layout_centerVertical="true"
+     android:layout_marginRight="10dp"
+     android:includeFontPadding="false"
+     android:text="X"/>
+  
+	<TableLayout 
+	    android:id="@+id/TableLayout01"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+       <TableRow 
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content">
+           <TextView
+            	android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/startTime"/>
+           <TextView
+            	android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: "
+                android:id="@+id/time" />
+       </TableRow>       
+       <TableRow 
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content">
+           <TextView
+            	android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Distance: "
+                android:id="@+id/distance"/>
+           <TextView
+            	android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speed: "
+                android:id="@+id/speed"/>
+       </TableRow>
+	</TableLayout>
+</RelativeLayout>

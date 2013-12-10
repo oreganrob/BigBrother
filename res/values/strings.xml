@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ServicesTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="settings">Settings</string>
+    <string name="speedometer">Speedometer</string>
+    <string name="map">Map</string>
+    <string name="log">Journeys</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_speedometer">SpeedometerActivity</string>
+    <string name="title_activity_log">LogActivity</string>
+
+</resources>

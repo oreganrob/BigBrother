@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"      
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal" >
+
+<!--         <Button -->
+<!--             android:id="@+id/startJourney" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:text="Start Journey" /> -->
+
+<!--         <Button -->
+<!--             android:id="@+id/stopJourney" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:text="End Journey" /> -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+        
+        <Button
+            android:id="@+id/locations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Locations Count" />
+        
+        <Button
+            android:id="@+id/journeys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Journeys Count" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Summary" />
+
+        <Button
+            android:id="@+id/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear" />
+    </LinearLayout>
+
+    <TextView  android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Min Time: "
+		android:id="@+id/minTimeText" />
+    <SeekBar
+        android:id="@+id/minTimeBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="30" />
+
+    <TextView  android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Min Distance: "
+		android:id="@+id/minDistanceText" />
+    <SeekBar
+        android:id="@+id/minDistanceBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="30" />
+    
+    <TextView
+      android:id="@+id/summary"
+      android:layout_width="fill_parent"  
+      android:layout_height="wrap_content"    
+      android:scrollbars="vertical" />
+    
+    <TextView
+      android:id="@+id/locationsView"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:scrollbars="vertical" />
+
+</LinearLayout>

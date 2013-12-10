@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/map"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:onClick="switchToMap"
+        android:title="@string/map"/>
+    
+    <item
+        android:id="@+id/log"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:onClick="switchToLog"
+        android:title="@string/log"/>
+    
+</menu>
